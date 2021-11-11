@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>$XYZ Finances$</title>
+    <link rel="stylesheet" href="common.css">
+</head>
+
+<body>
+        <canvas id="myCanvas" width="500" height="150"></canvas>
+    
+    <header>
+        <nav>
+            <ul style="line-height: 100%">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About us</a></li>
+                <li><a href="loans.html">Loans</a></li>
+                <li><a href="invest.html">Investments</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Home</h1>
+    <h2><b>$XYZ Finances$ </b></h2>
+    <p>We are here to help you with all your finances!</p>
+    <p>Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat.</p>
+    <script type="text/javascript">
+        var canvas = document.getElementById('myCanvas');
+        var ctx1 = canvas.getContext('2d');
+        ctx1.beginPath();
+        ctx1.arc(100, 100, 40, 0, 2 * Math.PI);
+        ctx1.fillStyle = '#8B0000';
+        ctx1.fill();
+
+        var ctx2 = canvas.getContext('2d');
+        ctx2.beginPath();
+        ctx2.arc(150, 100, 40, 0, 2 * Math.PI);
+        ctx2.fillStyle = '#191970';
+        ctx2.fill();
+    </script>
+
+</body>
+
+</html>
